@@ -1,0 +1,34 @@
+body{
+    background-color: beige;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+    width: 750px;
+    height: 500px;
+    background-color:whitesmoke ;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Submit{
+    background-color: red;
+    height: 50px;
+    width: 90px;
+    color: white;
+    border-color: red;
+    border-radius: 5px;
+    border-style: hidden;
+    transition: background-color 0.4s;
+}
+#Submit:hover{
+    background-color: rgb(168, 52, 52);
+}
+
+#number{
+    height: 30px;
+    width: 200px;
+}
