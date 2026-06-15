@@ -1,0 +1,44 @@
+body{
+    display:flex
+    
+}
+
+div{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}
+#roll{
+    background-color: rgb(50, 226, 246);
+    color: white;
+    font-size: large;
+    border:none;
+    border-radius: 5px;
+    transition: background-color 0.4s;
+    cursor: pointer;
+    height: 30px;
+}
+#roll:hover{
+    background-color: rgb(119, 209, 241);
+    color: rgba(255, 255, 255, 0.542);
+}
+
+#number{
+    font-size: large;
+    text-align: center;
+    width: 100px;
+    font-weight: bolder;
+}
+
+#pics{
+   display: flex;
+   gap:10px
+
+}
+#pics img{
+    width: 120px;
+    margin: 5px;
+    object-fit: contain;
+}
